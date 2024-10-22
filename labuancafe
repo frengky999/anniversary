@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ucapan Selamat Ulang Tahun</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f0f8ff;
+        color: #333;
+        text-align: center;
+        padding: 50px;
+      }
+
+      .card {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        max-width: 600px;
+        margin: auto;
+      }
+
+      h1 {
+        color: #2c5f2d; /* Hijau matang */
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #2c5f2d; /* Hijau matang */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #1e4020; /* Hijau yang lebih gelap */
+      }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+
+        .card {
+          padding: 15px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .button {
+          padding: 8px 16px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Selamat Bergabung Di Acara Anniversary Labuan Cafe</h1>
+      <p>
+        Berikut adalah ucapan yang bisa digunakan: "Selamat menikmati acara
+        Anniversary Labuan Cafe! Semoga acaranya berjalan lancar dan penuh
+        kesan. Terima kasih atas dukungan dan kebersamaan kalian. Semoga ke
+        depannya, Labuan Cafe semakin berkembang, sukses, dan selalu menjadi
+        tempat favorit untuk berkumpul. Mari kita rayakan momen istimewa ini
+        bersama-sama!"
+      </p>
+
+      <a href="#" class="button">Silahkan Bergabung</a>
+    </div>
+  </body>
+</html>
